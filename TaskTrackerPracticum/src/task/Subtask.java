@@ -1,8 +1,11 @@
 package task;
 
-// Класс отвечающий за реализацию объекта "Подзадача"
-public class Subtask extends Epic{
-    Subtask(String name, String description) {
+import manager.EpicManager;
+
+// Класс отвечающий за реализацию объекта "Эпик"
+public class Subtask extends Epic {
+
+    public Subtask(String name, String description) {
         super(name, description);
     }
 }
